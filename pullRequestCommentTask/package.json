@@ -1,0 +1,38 @@
+{
+  "name": "pullrequestcommenttask",
+  "version": "1.0.0",
+  "description": "Azure DevOps extension that provides commenting task for Azure DevOps Repository Pull Requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tlaukkanen/azure-pr-comments.git"
+  },
+  "keywords": [
+    "git",
+    "azure",
+    "devops",
+    "pipeline",
+    "task",
+    "extension",
+    "pr",
+    "pull",
+    "request",
+    "comment"
+  ],
+  "author": "Tommi Laukkanen (https://github.com/tlaukkanen)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlaukkanen/azure-pr-comments/issues"
+  },
+  "homepage": "https://github.com/tlaukkanen/azure-pr-comments#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "@types/q": "^1.5.2"
+  }
+}
